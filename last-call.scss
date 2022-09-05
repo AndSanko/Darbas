@@ -1,0 +1,46 @@
+.last-call{
+  background: url("../images/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  
+}
+
+.call-content{
+  text-align: center;
+  padding-top: 90px;
+
+  h2{
+    font-size: 20px;
+    color: $white;
+    margin-bottom: 10px;
+  }
+
+  input{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    background: $bg-blue;
+    color: $white;
+    margin: 5px;
+    cursor: pointer;
+
+    &:hover{
+      background: transparent;
+      border: 1px solid $white;
+      color: $white;
+    }
+  }
+
+
+}
+
